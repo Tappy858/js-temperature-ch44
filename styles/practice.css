@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*header*/
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*login*/
+.login{
+    background-color: rgb(24, 54, 54);
+    height: 200px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.login input{
+    display: block;
+    margin: 20px;
+}
+.login button{
+    border: none;
+}
