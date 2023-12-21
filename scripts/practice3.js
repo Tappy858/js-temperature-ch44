@@ -76,3 +76,4 @@ function convertTemperature() {
     // Display the result., toFixed is for decimals and how many
     document.getElementById("result").innerHTML = `Display Results: ${result.toFixed(2)} degrees ${scale === "C" ? "Fahrenheit" : "Celsius"}`;
 }
+
